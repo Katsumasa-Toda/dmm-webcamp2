@@ -2,7 +2,7 @@ def findthird
   num = 1
   while (num <= 30 ) do
     if (num % 3 == 0 || num.to_s.include?("3"))
-      puts "#{ num } ☆"
+      puts "#{ num } ＊"
     else
       puts num
     end
